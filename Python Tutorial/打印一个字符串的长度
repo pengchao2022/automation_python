@@ -1,0 +1,10 @@
+# this program is to count the length of a string
+
+greet = 'pronunciation'
+
+print("the length of your word is:" ,len(greet))
+
+
+----------------执行结果--------------------
+pengchao@PengChaos-MacBook-Pro python_projects % /usr/local/bin/python3 /Users/pengchao/Python/python_projects/6.py
+the length of your word is: 13
