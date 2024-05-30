@@ -1,0 +1,13 @@
+# this program is to print true or false
+
+print('a' in 'programming')
+print( '12' in 'programming')
+print('c' in 'China')
+
+
+-------------执行结果-------------
+
+pengchao@PengChaos-MacBook-Pro python_projects % /usr/local/bin/python3 /Users/pengchao/Python/python_projects/7.py
+True
+False
+False
