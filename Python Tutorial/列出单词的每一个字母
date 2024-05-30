@@ -1,0 +1,21 @@
+
+# this program is to print the list of each letter in a word
+
+greet = 'Helloworld'
+
+for letter in greet:
+    print(letter)
+
+------------执行结果-------------
+
+pengchao@PengChaos-MacBook-Pro python_projects % /usr/local/bin/python3 /Users/pengchao/Python/python_projects/5.py
+H
+e
+l
+l
+o
+w
+o
+r
+l
+d
