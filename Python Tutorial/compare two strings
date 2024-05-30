@@ -1,0 +1,18 @@
+
+# this program is to compare two strings then print false or true
+
+str1 = "hello, world!"
+str2 = "I love swift"
+str3 = "HELLO, world"
+str4 = "hello, world!"
+
+print(str1 == str2)
+print(str1 == str3)
+print(str1 == str4)
+
+---------------- 执行结果------------
+
+pengchao@PengChaos-MacBook-Pro python_projects % /usr/local/bin/python3 /Users/pengchao/Python/python_projects/3.py
+False
+False
+True
