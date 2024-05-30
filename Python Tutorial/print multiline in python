@@ -1,0 +1,16 @@
+# this program is to print multiline strings
+
+message = """
+Never gonna give you up
+the time is always right here when you want to do the right thing
+if you can't fly , then you can walk
+"""
+print(message)
+
+------------- 执行结果---------------
+
+pengchao@PengChaos-MacBook-Pro python_projects % /usr/local/bin/python3 /Users/pengchao/Python/python_projects/2.py
+
+Never gonna give you up
+the time is always right here when you want to do the right thing
+if you can't fly , then you can walk
