@@ -1,0 +1,10 @@
+
+
+# This program is to filter the sensitive words in comments
+
+content = input("Please write your comments here:")
+
+if "cangjingkong" in content or "xiaozemaliya" in content:
+    print("Sensitive words in comments!")
+else:
+    print("No sensitive words in comments!")
