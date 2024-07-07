@@ -1,0 +1,14 @@
+# this program is to test the user login system
+# written by pengchao in Shanghai
+
+userName = input("Please type your user name here:")
+passWord = input("Please type your password here:")
+
+if userName == 'admin' and passWord == '123456':
+    print("Login Successfully!")
+elif userName == 'admin' and passWord != '123456':
+    print("Password error!")
+elif passWord == '123456' and userName != 'admin':
+    print("User Name error")
+else:
+    print("both error")
