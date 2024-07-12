@@ -1,0 +1,7 @@
+
+
+under cmd  you can type the following command to create .exe files
+
+
+
+D:\DevOps\Python\GUI_PYTHON>pyinstaller --onefile snake.py
