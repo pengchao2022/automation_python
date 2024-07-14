@@ -1,0 +1,42 @@
+Here’s a basic code sample demonstrating how to create a simple Python package:
+
+1,Create a directory named mypackage.
+2,Inside mypackage, create two Python files: module1.py and module2.py.
+3,Create an __init__.py file inside mypackage (it can be empty).
+4,Add some code to the modules.
+5,Finally, demonstrate how to import and use the modules from the package.
+
+mypackage/
+│
+├── __init__.py  ----------------- This can be empty just a file name
+├── module1.py
+└── module2.py
+
+-------------------------------------------------------------------------------
+module1.py
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+module2.py
+
+def add(a,b):
+    return a + b
+
+
+---------------------------------------------------------------------------------
+create a Python script outside the mypackage directory to import and use these modules:
+
+mypython.py
+
+from packages import module1, module2
+
+module1.greet("Alice")
+
+result = module2.add(3,8)
+
+print("The result of addition is:", result)
+
+
+
+
